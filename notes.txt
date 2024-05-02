@@ -1,0 +1,124 @@
+CosmosDB
+
+{
+  "analyticalStorageConfiguration": {
+    "schemaType": "WellDefined"
+  },
+  "apiProperties": null,
+  "backupPolicy": {
+    "migrationState": null,
+    "periodicModeProperties": {
+      "backupIntervalInMinutes": 240,
+      "backupRetentionIntervalInHours": 8,
+      "backupStorageRedundancy": "Geo"
+    },
+    "type": "Periodic"
+  },
+  "capabilities": [],
+  "capacity": null,
+  "connectorOffer": null,
+  "consistencyPolicy": {
+    "defaultConsistencyLevel": "Session",
+    "maxIntervalInSeconds": 5,
+    "maxStalenessPrefix": 100
+  },
+  "cors": [],
+  "createMode": null,
+  "customerManagedKeyStatus": null,
+  "databaseAccountOfferType": "Standard",
+  "defaultIdentity": "FirstPartyIdentity",
+  "disableKeyBasedMetadataWriteAccess": false,
+  "disableLocalAuth": false,
+  "documentEndpoint": "https://simple-chat-history.documents.azure.com:443/",
+  "enableAnalyticalStorage": false,
+  "enableAutomaticFailover": false,
+  "enableBurstCapacity": false,
+  "enableCassandraConnector": null,
+  "enableFreeTier": false,
+  "enableMultipleWriteLocations": false,
+  "enablePartitionMerge": false,
+  "failoverPolicies": [
+    {
+      "failoverPriority": 0,
+      "id": "simple-chat-history-eastus",
+      "locationName": "East US"
+    }
+  ],
+  "id": "/subscriptions/1e7b143e-f59c-4215-b20b-6e00a3272e36/resourceGroups/simple-test-chat/providers/Microsoft.DocumentDB/databaseAccounts/simple-chat-history",
+  "identity": {
+    "principalId": null,
+    "tenantId": null,
+    "type": "None",
+    "userAssignedIdentities": null
+  },
+  "instanceId": "0d5c0470-21c8-479e-aad5-9324b774e523",
+  "ipRules": [],
+  "isVirtualNetworkFilterEnabled": false,
+  "keyVaultKeyUri": null,
+  "keysMetadata": {
+    "primaryMasterKey": {
+      "generationTime": "2024-05-01T23:07:39.542884+00:00"
+    },
+    "primaryReadonlyMasterKey": {
+      "generationTime": "2024-05-01T23:07:39.542884+00:00"
+    },
+    "secondaryMasterKey": {
+      "generationTime": "2024-05-01T23:07:39.542884+00:00"
+    },
+    "secondaryReadonlyMasterKey": {
+      "generationTime": "2024-05-01T23:07:39.542884+00:00"
+    }
+  },
+  "kind": "GlobalDocumentDB",
+  "location": "East US",
+  "locations": [
+    {
+      "documentEndpoint": "https://simple-chat-history-eastus.documents.azure.com:443/",
+      "failoverPriority": 0,
+      "id": "simple-chat-history-eastus",
+      "isZoneRedundant": false,
+      "locationName": "East US",
+      "provisioningState": "Succeeded"
+    }
+  ],
+  "minimalTlsVersion": "Tls12",
+  "name": "simple-chat-history",
+  "networkAclBypass": "None",
+  "networkAclBypassResourceIds": [],
+  "privateEndpointConnections": null,
+  "provisioningState": "Succeeded",
+  "publicNetworkAccess": "Enabled",
+  "readLocations": [
+    {
+      "documentEndpoint": "https://simple-chat-history-eastus.documents.azure.com:443/",
+      "failoverPriority": 0,
+      "id": "simple-chat-history-eastus",
+      "isZoneRedundant": false,
+      "locationName": "East US",
+      "provisioningState": "Succeeded"
+    }
+  ],
+  "resourceGroup": "simple-test-chat",
+  "restoreParameters": null,
+  "systemData": {
+    "createdAt": "2024-05-01T23:07:39.542884+00:00",
+    "createdBy": null,
+    "createdByType": null,
+    "lastModifiedAt": null,
+    "lastModifiedBy": null,
+    "lastModifiedByType": null
+  },
+  "tags": {},
+  "type": "Microsoft.DocumentDB/databaseAccounts",
+  "virtualNetworkRules": [],
+  "writeLocations": [
+    {
+      "documentEndpoint": "https://simple-chat-history-eastus.documents.azure.com:443/",
+      "failoverPriority": 0,
+      "id": "simple-chat-history-eastus",
+      "isZoneRedundant": false,
+      "locationName": "East US",
+      "provisioningState": "Succeeded"
+    }
+  ]
+}
